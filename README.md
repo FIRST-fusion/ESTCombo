@@ -6,7 +6,8 @@ This is a combined tool for the study of MHD equilibrium and Stability, which in
 - [TERPSICHORE](https://github.com/FIRST-fusion/TERPSICHORE.git) Calculates ideal kink stability from VMEC equilibria.
 
 - [DCON](https://github.com/FIRST-fusion/DCON.git) Determine the MHD stability of axisymmetric toroidal plasma
-## workflow
+
+## Install
 Clone the repository and install all packages.
 
 ``` bash
@@ -26,4 +27,6 @@ Once you build and run your image, you will enter the docker container automatic
 ```
 
 
+## After install
 
+1. Some of python scripts n

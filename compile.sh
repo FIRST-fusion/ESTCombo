@@ -36,10 +36,9 @@ make clean
 make
 
 if [ $? -eq 0 ]; then
-	echo "[INFO] All jobs are done!"
-	echo "[INFO] If you want to use interface scripst, go to /workspace/General-tool/script_forDocker and execute distrib.sh in that folder." 
+	echo "[INFO] Finish compiling VMEC!"
 else 
-	echo "[Erro] Make failed. Please check which one has gone failure."
+	echo "[Erro] Make failed. Please check what make failure."
 fi
 
 # Update Symbolink Link of gfortran-9 (default) to point to gfortran-7
@@ -57,8 +56,20 @@ cd /workspace/TERPSICHORE/vm3dp
 make
 cd /workspace/TERPSICHORE/vmec2tpr
 make
+if [ $? -eq 0 ]; then
+	echo "[INFO] Finish compiling TERPSICHORE!"
+else 
+	echo "[Erro] Make failed. Please check what make failure."
+fi
 
 #DCON
 echo "Compiling DCON =====================================>>"
 cd /workspace/DCON/
 make
+if [ $? -eq 0 ]; then
+	echo "[INFO] Finish compiling DCON!"
+	echo "[INFO] All compilation is done!"
+	echo "[INFO] If you want to use interface scripst, go to /workspace/General-tool/script_forDocker and execute distrib.sh in that folder." 
+else 
+	echo "[Erro] Make failed. Please check which one has gone failure."
+fi

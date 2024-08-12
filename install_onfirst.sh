@@ -2,13 +2,13 @@
 current_path=$(pwd)
 
 echo "Downloading VMEC, TERP, DCON .................."
-#git clone git@github.com:FIRST-fusion/Stellarator-Tools.git
-#git clone git@github.com:FIRST-fusion/TERPSICHORE.git
-#git clone git@github.com:FIRST-fusion/DCON.git
+git clone git@github.com:FIRST-fusion/Stellarator-Tools.git
+git clone git@github.com:FIRST-fusion/TERPSICHORE.git
+git clone git@github.com:FIRST-fusion/DCON.git
 
 echo "Downloading package/patch for codes ..........." 
-#git clone git@github.com:FIRST-fusion/VMEC-patch.git
-#git clone git@github.com:FIRST-fusion/General-tool.git
+git clone git@github.com:FIRST-fusion/VMEC-patch.git
+git clone git@github.com:FIRST-fusion/General-tool.git
 
 echo "[INFO] Complete downloading all package!!"
 echo ""
