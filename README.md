@@ -34,5 +34,7 @@ Once you build and run your image, you will enter the docker container automatic
 
 1. Some of python scripts need numpy, please install it by `pip3 install numpy` manually.
 
+2. Go to `/workspace/General-tool/script_forDocker` and run `./distrib.sh`. This will distribute all auxiliary scripst using in VMEC to certain directories.
+
 2. In our study, we set the wall away 1.2 times plasma radius from the plasma, so to make sure you get consistent result, go to `/workspace/DCON/rundir/Linux/vac.in` and modify a=20 (default) to a=0.2.
 
