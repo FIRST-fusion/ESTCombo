@@ -8,6 +8,9 @@ This is a combined tool for the study of MHD equilibrium and Stability, which in
 - [DCON](https://github.com/FIRST-fusion/DCON.git) Determine the MHD stability of axisymmetric toroidal plasma
 
 ## Install
+
+Before you start, ask the server manager if you have acess to docker. 
+
 Clone the repository and install all packages.
 
 ``` bash
@@ -29,4 +32,7 @@ Once you build and run your image, you will enter the docker container automatic
 
 ## After install
 
-1. Some of python scripts n
+1. Some of python scripts need numpy, please install it by `pip3 install numpy` manually.
+
+2. In our study, we set the wall away 1.2 times plasma radius from the plasma, so to make sure you get consistent result, go to `/workspace/DCON/rundir/Linux/vac.in` and modify a=20 (default) to a=0.2.
+
