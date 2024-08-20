@@ -26,3 +26,5 @@ echo "Downloading package/patch for codes ..........."
 update_repo "git@github.com:FIRST-fusion/VMEC-patch.git" "VMEC-patch"
 update_repo "git@github.com:FIRST-fusion/General-tool.git" "General-tool"
 
+echo "[INFO] Complete downloading all package!!"
+echo ""

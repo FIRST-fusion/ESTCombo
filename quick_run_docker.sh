@@ -1,7 +1,5 @@
 
 ## quick run dockerfile
-echo "[INFO] Complete downloading all package!!"
-echo ""
 echo "Start to build docker image and container, please enter customize image/container name ..."
 echo "NOTE: All name should be in lowercase!!" 
 echo ">> Enter image name: "
