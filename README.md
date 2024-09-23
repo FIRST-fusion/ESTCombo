@@ -7,9 +7,22 @@ This is a combined tool for the study of MHD equilibrium and Stability, which in
 
 - [DCON](https://github.com/FIRST-fusion/DCON.git) Determine the MHD stability of axisymmetric toroidal plasma
 
+## Warning!!
+
+Before you run the followng steps, make sure you are 
+
+1. One of the memebrs in this Github organization 
+
+2. Have access to repositories: Stellerator-tools, TERPSICHORE, DCON, VMEC-patch, General-tool. 
+
+3. Ask the manager to turn on your docker authority in server (ncku-first)
+
+4. Generate a key and add to your github, so that you can access all things in this organization
+
 ## Install
 
 The ESTCombo is set to be executed in docker, so before you start, ask the server manager if you have acess to docker. 
+
 
 Clone the repository and install all packages.
 
