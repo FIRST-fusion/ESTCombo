@@ -53,4 +53,13 @@ This step will build all VMEC, TERPSHICHORE, DCON at once. Note that if you have
 
 ## Start Container
 
-To run the container you have created, check `docker ps -a` first and see which one  
+To leave docker container, just `exit` in container.
+
+To run the container you have created, check `docker ps -a` first and see which one, then 
+
+``` bash
+docker start <container_name> 
+docker exec -it <container_name> bash
+```
+
+
